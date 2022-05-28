@@ -1,0 +1,162 @@
+body{
+    font-family: 'Baloo Tamma 2';
+}
+
+#title{
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 1.5cm;
+}
+
+#map{
+    margin-top: 0.5cm;
+    margin-left: 1.5cm; /*margine sx*/
+    width: 50%; /*larghezza immagine*/
+}
+
+#legend{
+    margin-top: 0.5cm;
+    float: right;
+    padding-right: 7.0cm;
+}
+
+#legend a{
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 0.2cm;
+}
+
+.sezzioni_impianto{
+    line-height: 1px;
+    margin-left: 1.12cm;
+}
+
+#legend div img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+#legend div{
+    padding: 10px;
+}
+
+#acqua a{
+    color: #009ADE;
+}
+
+#fanghi a{
+    color: #3DAE2B;
+}
+
+#biogas a{
+    color: #FFCD00;
+}
+
+.zone_a{
+    font-weight: 800;
+    color: #009ADE;
+    font-size: 18px;
+    margin-left: 0.5cm;
+}
+
+.sez_a{
+    color: #009ADE;
+    font-weight: 700;
+
+}
+
+.zone_f{
+    font-weight: 800;
+    color: #3DAE2B;
+    font-size: 18px;
+    margin-left: 0.5cm;
+}
+
+.sez_f{
+    color: #3DAE2B;
+    font-weight: 700;
+}
+
+.zone_b{
+    font-weight: 800;
+    color: #FFCD00;
+    font-size: 18px;
+    margin-left: 0.5cm;
+}
+
+.sez_b{
+    color: #FFCD00;
+    font-weight: 700;
+}
+
+.popper{
+    border: solid 1px #C9C7C7;
+    border-radius: 15px;
+    width: 45%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30%;
+    visibility: hidden;
+}
+
+.description{
+    margin-left: 0.5cm;
+}
+
+/*stile per cellulare*/
+@media only screen and (min-width:150px) and (max-width:850px) {
+    #title {
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #map{
+        margin-top: 0.5cm;
+        margin-left: 0.5cm;
+        width: 100%;
+    }
+
+    .description{
+        margin-left: 0.2cm;
+        font-size: 11px;
+    }
+
+    .popper{
+        width: 100%;
+        margin-left: 0.5cm;
+        margin-top: 170%;
+
+    }
+
+    .zone_a, .zone_b, .zone_f{
+        margin-left: 0.2cm;
+        font-size: 14px;
+    }
+
+    #legend{
+        float: left;
+        margin-top: 0.3cm;
+        margin-left: 0.5cm;
+    }
+
+    #legend a{
+        font-size: 13px;
+    }
+
+    #legend div img{
+        height: 20px;
+        width: 20px;
+        vertical-align: middle;
+    }
+
+    #legend div{
+        padding: 5px;
+    }
+
+    .sezzioni_impianto{
+        margin-left: 0.7cm;
+        width: 122px;
+    }
+}
